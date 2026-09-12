@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery</title>
+    <link rel="stylesheet" href="bakery.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <div id="icon">
+
+            <a href="#">Petal & Crumb</a>
+        </div>
+        <div id="nav">
+
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Popular Menu</a>
+            <a href="#">Booking</a>
+            <a href="#">Menu</a>
+            <a href="#">Contacts</a>
+        </div>
+    </div>
+    <div id="first-page">
+        <div id="hero-content">
+            <p class="hero-tagline">Baked with love, made to bloom.</p>
+
+            <h1>Sweet Moments,<br>Beautifully Baked.</h1>
+
+            <p class="hero-description">
+                Discover delicate cakes, dreamy pastries, and little treats
+                made fresh with the finest ingredients and a whole lot of love.
+            </p>
+
+            <a href="#" class="hero-button">Explore Our Menu</a>
+        </div>
+        <img id="main-photo" src="images/main.png" alt="Description">
+    </div>
+
+<div id="second-page">
+
+    <!-- Decorative background elements -->
+    <div class="about-circle circle-one"></div>
+    <div class="about-circle circle-two"></div>
+
+    <!-- Cake / Image -->
+    <div id="about-image">
+        <img
+            id="sec-page"
+            src="images/sec.png"
+            alt="Petal & Crumb signature dessert"
+        >
+    </div>
+
+    <!-- About Content -->
+    <div id="about-content">
+
+        <p class="about-tagline">
+            A Little Story Behind Every Bite
+        </p>
+
+        <h2>
+            Our Story
+        </h2>
+
+        <div class="story-line"></div>
+
+        <p class="about-text">
+            Petal & Crumb began with a simple love for baking and a dream
+            of turning everyday moments into something a little sweeter.
+            What started as a tiny kitchen filled with the aroma of fresh
+            cakes and pastries slowly blossomed into a bakery made for
+            life's beautiful moments.
+        </p>
+
+        <p class="about-text">
+            Every creation is thoughtfully baked, beautifully finished,
+            and made with the belief that the sweetest memories are
+            always worth sharing.
+        </p>
+
+        <p class="story-signature">
+            — Made with love, Petal & Crumb
+        </p>
+
+    </div>
+
+</div>
+
+
+<div id="third-page">
+
+    <h2>Popular Menu</h2>
+
+    <div class="menu-container">
+
+        <div class="menu-item">
+            <img src="images/m1.jpeg" alt="Strawberry Smoothie">
+        </div>
+
+        <div class="menu-item">
+            <img src="images/m2.jpeg" alt="Cupcake">
+        </div>
+
+        <div class="menu-item">
+            <img src="images/m3.jpeg" alt="Macaron">
+        </div>
+
+        <div class="menu-item">
+            <img src="images/m4.jpeg" alt="Bakery Item">
+        </div>
+
+        <div class="menu-item">
+            <img src="images/m5.jpeg" alt="Cake">
+        </div>
+
+    </div>
+
+</div>
+
+<div id="booking-page">
+
+    <div class="booking-content">
+
+        <div class="booking-text">
+
+            <p class="booking-label">A LITTLE SOMETHING SPECIAL</p>
+
+            <h2>Book Your<br>Sweet Moment</h2>
+
+            <p class="booking-description">
+                Planning a birthday, celebration, or simply craving
+                something delicious? Let Petal & Crumb make your
+                moment a little sweeter.
+            </p>
+
+            <p class="booking-note">
+                Tell us what you have in mind and we'll take care
+                of the rest, freshly baked with love.
+            </p>
+
+        </div>
+
+
+        <div class="booking-form">
+
+            <h3>Make a Booking</h3>
+
+            <form>
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="name">Your Name</label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            placeholder="Enter your name"
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="phone">Phone Number</label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            placeholder="Enter your number"
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="date">Date</label>
+
+                        <input
+                            type="date"
+                            id="date"
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="time">Preferred Time</label>
+
+                        <input
+                            type="time"
+                            id="time"
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="occasion">Occasion</label>
+
+                    <select id="occasion">
+
+                        <option value="">Choose an occasion</option>
+
+                        <option>Birthday</option>
+
+                        <option>Anniversary</option>
+
+                        <option>Wedding</option>
+
+                        <option>Party</option>
+
+                        <option>Just Because</option>
+
+                        <option>Other</option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="message">Tell us what you'd like</label>
+
+                    <textarea
+                        id="message"
+                        rows="3"
+                        placeholder="Cake flavour, size, special requests..."
+                    ></textarea>
+
+                </div>
+
+
+                <button type="submit" id="booking-button">
+                    Request a Booking
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<div id="contact-page">
+
+    <div class="contact-main">
+
+        <p class="contact-small-title">
+            COME FIND US
+        </p>
+
+        <h2>
+            Sweet things are<br>
+            always worth sharing.
+        </h2>
+
+        <p class="contact-description">
+            Drop by for something freshly baked,
+            stay for the warm little moments.
+        </p>
+
+
+        <!-- CONTACT DETAILS -->
+
+        <div class="contact-details">
+
+
+            <div class="contact-box">
+
+                <div class="contact-icon">
+                    ♡
+                </div>
+
+                <p class="contact-box-title">
+                    VISIT US
+                </p>
+
+                <p class="contact-box-text">
+                    24 Petal Lane,<br>
+                    Sweet Street
+                </p>
+
+            </div>
+
+
+            <div class="contact-box">
+
+                <div class="contact-icon">
+                    ✆
+                </div>
+
+                <p class="contact-box-title">
+                    CALL US
+                </p>
+
+                <p class="contact-box-text">
+                    +91 98765 43210
+                </p>
+
+            </div>
+
+
+            <div class="contact-box">
+
+                <div class="contact-icon">
+                    ✉
+                </div>
+
+                <p class="contact-box-title">
+                    EMAIL US
+                </p>
+
+                <p class="contact-box-text">
+                    hello@petalandcrumb.com
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="contact-hours">
+
+            <span>
+                MON – SAT
+            </span>
+
+            <p>
+                9:00 AM — 8:00 PM
+            </p>
+
+            <span>
+                SUN
+            </span>
+
+            <p>
+                10:00 AM — 6:00 PM
+            </p>
+
+        </div>
+
+
+
+        <div class="contact-social">
+
+            <p>
+                Follow our sweet world
+            </p>
+
+            <div>
+
+                <a href="#">Instagram</a>
+
+                <a href="#">Pinterest</a>
+
+                <a href="#">Facebook</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="contact-footer">
+
+        <span>
+            Petal & Crumb
+        </span>
+
+        <span>
+            Made with love ♡
+        </span>
+
+    </div>
+
+</div>
+</body>
+
+</html>
