@@ -38,4 +38,3 @@ Petal & Crumb
 
 <br>
 
-<p align="center"><i>made with care, one section at a time.</i></p>
